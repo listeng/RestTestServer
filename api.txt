@@ -1,0 +1,12 @@
+[
+    {
+        "type": "GET",
+        "pt": "users/(\\d*)/?$",
+        "result": "api/getUsersById.txt"
+    },
+    {
+        "type": "GET",
+        "pt": "users/?$",
+        "result": "api/getUsersList.txt"
+    }
+]
