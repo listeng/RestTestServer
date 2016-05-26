@@ -7,7 +7,9 @@ You can use this server for api test when writing a webapp. Once webapp request 
 For example:
 
 GET /api/users
+
 server will return the content of file from ./api/getUsersList.txt
 
 GET /api/users/12
+
 server will return the content of file from ./api/getUsersById.txt
